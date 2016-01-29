@@ -14,7 +14,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   gem 'sqlite3'
   gem 'pry-byebug'
+  gem 'pry-rails'
   gem 'faker'    #ダミーデータ生成
+  gem 'bullet'
+  gem 'did_you_mean'
 end
 
 group :development do
@@ -43,3 +46,4 @@ gem 'activeadmin', github: 'activeadmin'
  gem 'jquery-infinite-pages' #infinite scroll
  # gem 'livingstyleguide'
  gem 'xcharts-rails'
+ gem 'i18n_generators' #翻訳ファイル生成
